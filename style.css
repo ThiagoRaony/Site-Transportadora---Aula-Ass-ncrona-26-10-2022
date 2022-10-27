@@ -1,0 +1,170 @@
+/*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}*/
+
+body{
+    margin: auto;
+    width: 100%;
+    background-color: rgb(206, 218, 240);
+    padding: 0px;
+}
+
+#menu{
+    float: right;
+    width: 85%;
+}
+
+#menu a:hover{
+    color: blueviolet;
+}
+
+#menu ul{
+    list-style: none;
+    /*background: linear-gradient(to bottom, #4d148c, #333);*/
+    padding: 0px;
+    margin: opx;
+}
+
+#menu li{
+    height: 0px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 150px;
+    padding: 20px;
+}
+
+#menu a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #ff6200;
+    font-family: "roboto", sans-serif; 
+}
+
+#cab img{
+    float: left;
+    margin-top: auto;
+    width: 200px;
+    padding: 20px;
+}
+
+#social{
+    float: right;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+#social img{
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+}
+
+.fix{
+    clear: both;
+}
+
+#titulo{
+    font-family: "roboto", sans-serif; 
+    color: white;
+}
+
+#titulo h1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+#titulo h2{
+    text-align: center;
+    font-size: 23px;
+    margin-top: 0%;
+    margin-bottom: 60px;
+}
+
+#botao{
+    text-align: center;
+}
+
+.red{
+    color: #ff6200;
+    border-radius: 5px;
+    border: none;
+    background-color: #4d148c;
+    padding: 10px;
+}
+
+.red:hover{
+    color: rgb(252, 250, 252);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.transp{
+    color: #ff6200;
+    border-radius: 5px;
+    border-radius: solid 1px black;
+    background: transparent;
+    padding: 09px;
+}
+
+.transp:hover{
+    color: blueviolet;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#one{
+    background: url("img/Capa.webp") no-repeat center;
+    opacity: 50;
+    background-clip: border-box;
+    background-size: cover;
+    padding: 20vw;
+}
+
+#two{
+    display: flex;
+    text-align: left;
+    color: white;
+    font-family: "roboto", sans-serif; 
+}
+
+#two h2{
+    font-family: ;
+    font-size: 2.5vw;
+}
+#two p{
+    font-family: ;
+    font-size: 1.2vw;
+    text-align: left;
+}
+
+.black{
+    background: url("img/container.jpg") no-repeat center;
+    background-clip: border-box;
+    background-size: cover;
+    padding: 2vw;
+}
+
+.red2{
+    background: url("img/cargueiro.jpg") no-repeat center;
+    background-clip: border-box;
+    background-size: cover;
+    padding: 2vw;
+}
+
+.blue{
+    background: url("img/transporte-logistica-buque-carga-contenedor-avion-carga-representacion-3d-e-ilustracion_37416-507.webp") no-repeat center;
+    background-clip: border-box;
+    background-size: cover;
+    padding: 2vw
+}
+
+footer{
+    text-align: center;
+    margin: auto;    
+    padding: 30px;
+    background: linear-gradient(to bottom, #4d148c, #333);
+}
